@@ -1,0 +1,15 @@
+#portfolio{
+    height: 100vh;
+}
+#portfolio .layer__{
+    background-color: #1abc9ce6;
+    opacity: 0;
+    cursor: pointer;
+    transition: .6s opacity;
+}
+#portfolio .layer__:hover{
+    opacity: 1;
+}
+#portfolio .model__  img{
+    width: 600px;
+}

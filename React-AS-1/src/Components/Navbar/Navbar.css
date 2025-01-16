@@ -1,0 +1,23 @@
+
+
+:root {
+    --main-color: #1abc9c;
+    --second-color: #2c3e50;
+}
+
+
+
+#nav .navbar{
+    background-color:var(--second-color) !important;
+}
+#nav .navbar-brand{
+    color: #ffff;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#nav .navbar-nav .nav-link{
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
