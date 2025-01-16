@@ -9,7 +9,7 @@ import Start from './Components/Start/Start'
 import About from './Components/About/About'
 import Portfolio from './Components/Portfolio/Portfolio'
 import Contact from './Components/Contact/Contact'
-import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider, Navigate,createHashRouter } from 'react-router-dom'
 import MainLayout from './Components/MainLayout/MainLayout'
 function App() {
   const router = createHashRouter([
